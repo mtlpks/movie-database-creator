@@ -8,3 +8,4 @@ Then, we create a loop that will use regex to find just the information we need,
 With the dict ready, what we have left is to create a database with our info. We create it through sqlite3, and then loop through the dict using a INSERT INTO statement to fill our database.
 Having used SELECT on the table, we display it in the screen by using pandas and tabulate.
 
+To run, simply download the files and run database_creator.py.
