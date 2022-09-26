@@ -16,5 +16,5 @@ for movie_number in range(0, len(list_of_htmlsections)):
     movie_name = movie_name_re[0][1:-4]
     year_re = re.findall(r">.*?</s", list_of_htmlsections[movie_number])
     year = year_re[0][2:-4]
-    movies_list[ranking_number] = (movie_name, director, year)
+    movies_list[ranking_number] = [movie_name, director, year]
     ranking_number += 1
